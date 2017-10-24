@@ -1,0 +1,95 @@
+.dropdown:hover .cw-list {
+	display: block;
+}
+
+
+.dropdown:hover .dt {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	background-color: #fff;
+}
+
+.dropdown:hover .ci-left {
+	background: url(../img/jd2015img.png) 0 -25px no-repeat;
+}
+
+.dropdown:hover .dropdown-layer {
+	display: block;
+	z-index: 3;
+	-webkit-transition: all 600ms cubic-bezier(0.23,1,.32,1);
+}
+
+.dropdown:hover .cw-icon {
+	border: 1px solid #ddd!important;
+}
+
+.aucCategorys .item:hover {
+	background: #fff;
+}
+
+.aucCategorys .item:hover .item-cont {
+	border-color: #fff;
+}
+
+.aucCategorys .item a:hover {
+	color: #c7171e;
+}
+
+.aucCategorys .item:hover .item-title {
+	color: #c7171e;
+}
+
+.aucCategorys .item:hover .arrow {
+	background-image: url(../img/arrow1.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 12px 12px;
+}
+
+.aucCategorys .item:hover .sub-item {
+	display: block;
+}
+
+.slider:hover .pm-slide-page {
+	display: block;
+}
+
+.auction-content .mc .item:hover {
+	box-sizing: border-box;
+	border: 3px solid #d23030;
+}
+
+.auction-content .mc .item .p-name:hover {
+	color: #d23030;
+}
+
+.auction-content .mc .item .p-tit:hover {
+	color: #d23030;
+}
+
+.auction-content .mc .item .p-txt:hover {
+	color: #d23030;
+}
+
+.auction-content .mc .item:hover img{
+	margin: -3px;
+}
+
+.auction-content .mc .item:hover .p-detail {
+	margin: -3px;
+}
+
+.auction-content .moods .mc .item:hover {
+	box-sizing: border-box;
+	width: 220px;
+	height: 300px;
+	border: 3px solid #d23030;
+}
+
+.help a:hover {
+	color: #C81623;
+}
+
+.mod a:hover {
+	color: #C81623;
+}

@@ -1,0 +1,248 @@
+/*导航栏*/
+#shortcut .w {
+	width: 1250px;
+}
+
+#shortcut li{
+	float: left;
+	height: 30px;
+	padding: 0 2px;
+}
+
+#shortcut .fore2 {
+	margin-left: 11px;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.dropdown {
+	position: relative;
+}
+
+.dropdown .dt {
+	padding: 0 25px 0 10px;
+	position: relative;
+	z-index: 4;
+	border-left: 1px solid #f1f1f1;
+	border-right: 1px solid #f1f1f1;
+}
+
+.fore3 .dt a {
+	display: block;
+	margin-left: 14px;
+}
+
+.dropdown .ci-right {
+	width: 7px;
+	height: 4px;
+	position: absolute;
+	top: 13px;
+	right: 10px;
+	background-image: url(../img/2014071401.png);
+	background-repeat: no-repeat;
+	background-position: -18px -7px;
+}
+
+.dropdown .ci-left {
+	width: 13px;
+	height: 22px;
+	position: absolute;
+	top: 4px;
+	left: 8px;
+	background: url(../img/2014071401.png) 0 0 no-repeat;
+	transition: all .2s ease;
+}
+
+#shortcut .jdindex {
+	padding-left: 20px;
+	background: url(../img/jd2015img.png) 0 -136px no-repeat;
+}
+
+.jdindex .dt {
+	position: relative;
+}
+
+.cw-list {
+	position: absolute;
+	top: 30px;
+	right: 2px;
+	width: 121px;
+	height: 143px;
+	border: 1px solid #ddd;
+	padding: 10px 0 0 10px;
+	z-index: 5;
+	background: #fff;
+	display: none;
+}
+
+.cw-list .cw-code {
+	margin-left: 10px;
+	margin-bottom: -5px;
+}
+
+.cw-list .txt {
+
+}
+
+#shortcut .cw-item {
+	width: 60px;
+	padding: 2px 0;
+	margin: 0;
+	height: auto;
+	border: none;
+}
+
+.cw-spacer {
+	position: absolute;
+	top: -2px;
+	right: 0;
+	height: 2px;
+	background: #fff;
+	width: 97px;
+}
+
+
+#shortcut .spacer {
+	width: 1px;
+	height: 12px;
+	padding: 0;
+	background: #ddd;
+	margin: 9px 0 0 11px;
+}
+
+/*拍卖头部*/
+/*logo*/
+#fs-header .w {
+	width: 1250px;
+}
+
+#fs-logo {
+	float: left;
+	padding-right: 20px;
+	height: 100px;
+}
+
+#fs-logo img {
+	height: 100px;
+}
+
+.fs-ad {
+	float: left;
+	height: 100px;
+}
+
+.fs-service {
+	float: left;
+	margin-left: 175px;
+	height: 100px;
+	width: 427px;
+	background: url(../img/modsn.jpg);
+}
+
+.fs-service li {
+	float: left;
+	margin-top: 16px;
+}
+
+.fs-service-fore1 {
+	width: 150px;
+	height: 70px;
+	display: block;
+}
+
+.fs-service-fore2 {
+	width: 160px;
+	height: 70px;
+	display: block;
+}
+
+.fs-service-fore3 {
+	width: 115px;
+	height: 70px;
+	display: block;
+}
+
+.fs-shopbag {
+	float: right;
+	width: 88px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #ddd;
+	background: #f8f8f8;
+	padding: 4px 10px 5px 15px;
+	margin-top: 34px;
+	position: relative;
+	cursor: pointer;
+}
+
+.fs-shopbag b {
+	background: url(../img/icon.png) 0 -18px no-repeat;
+	float: left;
+	position: relative;
+	width: 21px;
+	height: 21px;
+	display: inline-block;
+}
+
+.fs-shopbag .num {
+	color: #fff;
+	font-family: vrinda;
+	position: absolute;
+	top: 5px;
+	left: 7px;
+}
+
+.fs-shopbag .name {
+	float: left;
+	margin-top: 2px;
+	margin-left: 10px;
+	color: #000;
+}
+
+.fs-shopbag .arrow {
+	background: url(../img/icon.png) -26px 0 no-repeat;
+	position: absolute;
+	top: 9px;
+	right: 10px;
+	width: 8px;
+	height: 12px;
+}
+
+/*nav*/
+#fs-nav {
+	clear: both;
+	height: 36px;
+	background: #cb111b;
+}
+
+#fs-nav li {
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+#fs-nav .first {
+	background: #b31610;
+}
+
+.nav-item {
+	display: block;
+	width: 113px;
+	height: 35px;
+	line-height: 35px;
+	color: #fff;
+	
+	font-size: 14px;
+}
+
+#fs-nav img {
+	position: absolute;
+	top: -10px;
+	right: -5px;
+}

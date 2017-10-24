@@ -1,0 +1,102 @@
+.dropdown:hover .cw-list {
+	display: block;
+}
+
+.dropdown-app:hover .cw-list {
+	display: block;
+}
+
+.cw-po a:hover {
+	background: #f4f4f4;
+}
+
+.dropdown:hover .dt {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	background-color: #fff;
+}
+
+.dropdown:hover .ci-left {
+	background: url(../img/jd2015img.png) 0 -25px no-repeat;
+}
+
+.dropdown:hover .dropdown-layer {
+	display: block;
+	z-index: 3;
+	-webkit-transition: all 600ms cubic-bezier(0.23,1,.32,1);
+}
+
+.dropdown:hover .cw-icon {
+	border: 1px solid #ddd!important;
+}
+
+.aucCategorys .item:hover {
+	background: #fff;
+}
+
+.aucCategorys .item:hover .item-cont {
+	border-color: #fff;
+}
+
+.aucCategorys .item a:hover {
+	color: #c7171e;
+}
+
+.aucCategorys .item:hover .item-title {
+	color: #c7171e;
+}
+
+.aucCategorys .item:hover .arrow {
+	background-image: url(../img/arrow1.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 12px 12px;
+}
+
+.aucCategorys .item:hover .sub-item {
+	display: block;
+}
+
+.spsk-goods:hover .spsk-goods-out {
+	background-position: -124px 0;
+	transition: background .3s;
+}
+
+.spsk-goods:hover img {
+	margin-top: -10px;
+	transition: .6s;
+}
+
+.spsk-goods-link:hover img {
+	transform: translateY(-10px);
+	transition: transform .3s;
+}
+
+.slider:hover .pm-slide-page {
+	display: block;
+}
+
+.brand-fullcut-item:hover {
+	opacity: .8;
+}
+
+.goods-buy:hover {
+	background: #e03340;
+}
+
+.spsk-brand-list-con-btn:hover {
+	background: #673720;
+	color: #fff;
+}
+
+.spsk-more-goods:hover .price-progress i {
+	color: #e03340;
+}
+
+.help a:hover {
+	color: #C81623;
+}
+
+.mod a:hover {
+	color: #C81623;
+}

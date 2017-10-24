@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+	color: #666;
+}
+
+#shortcut {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: #e3e4e5;
+	min-width: 1190px;
+	border-bottom: 1px solid #ddd;
+}
+
+#fresh-header {
+	height: 162px;
+	min-width: 1190px;
+}
+
+#fresh-content {
+	font-family: "Microsoft YaHei";
+	background: #f0f0f8;
+	min-height: 5000px;
+	min-width: 1190px;
+	position: relative;
+}
+
+.footer {
+	background: #00c65d;
+	height: 480px;
+	min-width: 1190px;
+}
+
+.service {
+	padding: 50px 0 40px;
+	height: 45px;
+}
+
+.help {
+	height: 254px;
+	padding-top: 40px;
+	border-top: 1px solid rgba(34, 34, 34, .2)
+}
+
+.mod {
+	text-align: center;
+	font-family: Tahoma,Helvetica,sans-serif;
+}
+
+.w {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+}
+
+i {
+	display: block;
+	font-style: italic;
+}
+
+em {
+	font-style: normal;
+}
+
+a {
+	color: #999;
+	text-decoration: none;
+}
+
+.mod a {
+	color: #666;
+}
+
+#shortcut a:hover, #my-fresh a:hover {
+	color: #c81623;
+}
+
+.crl {
+	display: block;
+	overflow: hidden;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}

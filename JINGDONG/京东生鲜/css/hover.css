@@ -1,0 +1,126 @@
+.dropdown:hover .cw-list {
+	display: block;
+}
+
+.dropdown-app:hover .cw-list {
+	display: block;
+}
+
+.cw-po a:hover {
+	background: #f4f4f4;
+}
+
+.dropdown:hover .dt {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	background-color: #fff;
+}
+
+.dropdown:hover .ci-left {
+	background: url(../img/jd2015img.png) 0 -25px no-repeat;
+}
+
+.dropdown:hover .dropdown-layer {
+	display: block;
+	z-index: 3;
+	-webkit-transition: all 600ms cubic-bezier(0.23,1,.32,1);
+}
+
+.dropdown:hover .cw-icon {
+	border: 1px solid #ddd!important;
+}
+
+#fresh-code .my-code:hover +.qrcode {
+	opacity: 1;
+	transition: all .3s;
+}
+
+#fresh-shopping:hover {
+	background: #fff;
+	border-color: #ddd;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+}
+
+#fresh-shopping:hover .dropdown-layer {
+	display: block;
+}
+
+#fresh-nav .freshmu-cls li:hover a {
+	color: #00c65d;
+	transition: all .4s;
+}
+
+.topline-list .topline-item:hover {
+	color: #00c65d;
+}
+
+.topline-list .topline-item:hover:before {
+	background: #00c65d;
+	height: 100%;
+	top: 0;
+	margin-top: 0;
+}
+
+.fresh-seckill-goods .goods-item-lk:hover {
+	z-index: 2;
+	box-shadow: 0 0 15px rgba(0, 0, 0, .15);
+	transition: all .25s ease;
+}
+
+.goods-item-lk:hover .goods-item-btn {
+	height: 40px;
+}
+
+.fresh-mod-top100-goods .goods-item:hover {
+	margin-top: -10px;
+	transition: all .25s ease-in-out;
+}
+
+.fresh-more:hover {
+	color: #fff;
+	background: #00c65d;
+}
+
+.fresh-slim-goods .goods-item-lk:hover .img {
+	transform: translateY(-3px);
+}
+
+.fresh-slim-goods .goods-item-lk:hover .name {
+	color: #00c65d;
+}
+
+.fresh-category-act1 .key .key-item:hover {
+	background: rgba(247, 247, 251, .4);
+}
+
+.fresh-category-goods .goods-item .goods-item-lk:hover .img {
+	transform: translateY(-5px);
+}
+
+.fresh-category-goods .goods-item .goods-item-lk:hover .name {
+	color: #00c65d;
+}
+
+.fresh-category-brands img:hover {
+	transform: translateY(-5px);
+}
+
+.seafood .slider:hover .prev, .seafood .slider:hover .next {
+	display: block;
+}
+
+.seafood .prev:hover, .seafood .next:hover {
+	background: rgba(0, 0, 0, .5);
+}
+
+.help a:hover {
+	color: #fff;
+}
+
+.help a:hover i {
+	background-image: url(../img/online-h.png);
+}
+
+.mod a:hover {
+	color: #C81623;
+}

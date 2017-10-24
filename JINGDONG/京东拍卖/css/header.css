@@ -1,0 +1,506 @@
+/*导航栏*/
+#shortcut li{
+	float: left;
+	height: 30px;
+	padding: 0 2px;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.dropdown {
+	position: relative;
+}
+
+.dropdown .dt {
+	padding: 0 25px 0 10px;
+	position: relative;
+	z-index: 4;
+	border-left: 1px solid #f1f1f1;
+	border-right: 1px solid #f1f1f1;
+}
+
+.dropdown .ci-right {
+	width: 12px;
+	height: 7px;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	background-image: url(../img/quan-icons.png);
+	background-repeat: no-repeat;
+	background-position: -100px 0;
+}
+
+.dropdown .ci-left {
+	width: 15px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	left: 9px;
+	background: url(../img/jd2015img.png) 0 0 no-repeat;
+}
+
+#shortcut .jdindex {
+	padding-left: 20px;
+	background: url(../img/jd2015img.png) 0 -136px no-repeat;
+}
+
+.jdindex .dt {
+	position: relative;
+}
+
+.cw-list {
+	position: absolute;
+	top: 30px;
+	left: 2px;
+	width: 300px;
+	height: 196px;
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 10px 0 10px 10px;
+	z-index: 5;
+	display: none;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+}
+
+.fore6 .cw-list {
+	left: -1px;
+}
+
+.fore7 .cw-list {
+	left: -1px;
+}
+
+#shortcut .cw-item {
+	width: 60px;
+	padding: 2px 0;
+	margin: 0;
+	height: auto;
+	border: none;
+}
+
+.cw-spacer {
+	position: absolute;
+	top: -7px;
+	height: 10px;
+	background: #fff;
+	width: 82px;
+}
+
+#shortcut .fore3 .cw-spacer {
+	left: 0;
+}
+
+#shortcut .fore6 .cw-spacer {
+	width: 98px;
+	left: 0;
+}
+
+#shortcut .fore7 .cw-spacer {
+	left: 0;
+}
+
+#shortcut .fore8 .cw-spacer {
+	left: 0;
+}
+
+#shortcut .fore9 .cw-spacer {
+	right: 0;
+}
+
+#shortcut .fore3 .cw-list {
+	width: 280px;
+	height: 131px;
+	padding: 5px 0;
+}
+
+#shortcut .fore3 .cw-item {
+	height: 24px;
+	line-height: 24px;
+	width: 105px;
+	margin: 0 5px;
+	padding: 0 0 0 10px;
+}
+
+#shortcut .fore6 .cw-list {
+	width: 250px;
+	height: 195px;
+	padding: 0;
+}
+
+#shortcut .fore6 .cw-code {
+	background: url(../img/592646cfN6b6889e4.jpg);
+	width: 250px;
+	height: 195px;
+}
+
+.cw-code a {
+	display: block;
+	position: absolute;
+	width: 56px;
+	height: 44px;
+	text-indent: -500px;
+}
+
+.cw-code .link {
+	width: 100px;
+	height: 20px;
+}
+
+.cw-code .link1 {
+	left: 92px;
+	top: 6px;
+}
+
+.cw-code .link2 {
+	left: 99px;
+	top: 23px;
+	width: 136px;
+	color: #c21a21;
+	text-indent: 0;
+	cursor: default;
+}
+
+.cw-code .link3 {
+	left: 92px;
+	top: 104px;
+}
+
+.cw-code .link4 {
+	left: 99px;
+	top: 120px;
+	width: 136px;
+	color: #c21a21;
+	text-indent: 0;
+	cursor: default;
+}
+
+.cw-code .jdapp-ios {
+	top: 46px;
+	left: 92px;
+}
+
+.cw-code .jdapp-android {
+	top: 46px;
+	left: 147px;
+}
+
+.cw-code .jdapp-ipad {
+	top: 46px;
+	left: 202px;
+	width: 45px;
+}
+
+.cw-code .wyapp-ios {
+	top: 143px;
+	left: 92px;
+}
+
+.cw-code .wyapp-android {
+	top: 143px;
+	left: 147px;
+}
+
+#shortcut .fore7 .cw-list {
+	width: 82px;
+	height: 97px;
+	padding: 0 0 8px 0;
+	box-shadow: none;
+}
+
+#shortcut .fore7 .cw-code {
+	background: url(../img/57bfe32fNbf75b97c.jpg);
+	width: 82px;
+	height: 97px;
+}
+
+#shortcut .fore8 .cw-list {
+	right: 0;
+	width: 170px;
+	height: 227px;
+	padding: 5px 0;
+}
+
+#shortcut .fore8 .cw-item {
+	width: 70px;
+	height: 24px;
+	line-height: 24px;
+	padding: 0;
+	margin: 0;
+}
+
+#shortcut .fore9 .cw-list {
+	left: -1126px;
+	width: 1210px;
+	height: 149px;
+	padding: 15px 0;
+}
+
+.cw-col4 {
+	float: left;
+	width: 360px;
+	height: 100%;
+	background: #fff;
+}
+
+.cw-col3 {
+	float: left;
+	width: 275px;
+	height: 100%;
+	background: #fff;
+}
+
+#shortcut .fore9 .cw-item {
+	width: 85px;
+	height: 24px;
+	line-height: 24px;
+	padding: 0;
+	margin: 0;
+}
+
+#shortcut .cw-bk {
+	padding-left: 20px;
+}
+
+#shortcut .cw-tit {
+	width: 100%;
+	font-weight: 700;
+	color: #666;
+	height: 24px;
+	line-height: 24px;
+}
+
+#shortcut .fore9 .cw-tit {
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+#shortcut .cw-w {
+	width: 100%;
+	height: 1px;
+	background: #f1f1f1;
+	margin: 5px 0;
+}
+
+#shortcut .cw-h {
+	float: left;
+	width: 1px;
+	height: 100%;
+	background: #f1f1f1;
+}
+
+#shortcut .cw-wd {
+	width: 100%;
+	height: 1px;
+	border-bottom: 1px dotted #eee;
+	margin: 4px 0 5px 0;
+}
+
+.cw-lk {
+	display: block;
+	float: left;
+	padding: 0 8px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.cw-first {
+	background: #f10215;
+	color: #fff!important;
+}
+
+#shortcut .spacer {
+	width: 1px;
+	height: 12px;
+	margin-top: 9px;
+	padding: 0;
+	background: #ddd;
+}
+
+#ttbar-login {
+	margin-right: 10px;
+}
+
+.link-login {
+	font-family: "vardana,simsun";
+}
+
+.style-red {
+	color: #c81623;
+}
+
+.fr .dt {
+	float: left;
+	padding: 0 8px;
+}
+
+#ttbar-myjd .dt, #ttbar-atte .dt, #ttbar-serv .dt, #ttbar-navs .dt {
+	width: 49px;
+	padding-right: 25px;
+}
+
+#ttbar-apps .dt {
+	padding: 0 25px;
+}
+
+/*拍卖头部*/
+/*logo*/
+#auction-logo {
+	float: left;
+	padding-top: 20px;
+	width: 164px;
+	height: 56px;
+}
+
+.logo {
+	float: left;
+	width: 139px;
+	height: 56px;
+	background: url(../img/pm-logo20160511.png) 0 0 no-repeat;
+}
+
+/*nav*/
+#auction-nav {
+	float: left;
+	width: 702px;
+	height: 36px;
+	padding-top: 51px;
+}
+
+#auction-nav li {
+	position: relative;
+	float: left;
+	padding: 0 10px;
+}
+
+.nav-item {
+	display: block;
+	line-height: 1;
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+	text-decoration: none;
+}
+
+#auction-nav img {
+	position: absolute;
+	top: -10px;
+	right: -5px;
+}
+
+/*search*/
+#auction-search {
+	float: right;
+	padding-top: 41px;
+	width: 225px;
+}
+
+.form {
+	height: 36px;
+}
+
+.text {
+	float: left;
+	width: 165px;
+	height: 24px;
+	line-height: 24px;
+	color: #666;
+	padding: 4px;
+	margin-bottom: 4px;
+	border-width: 2px 0 2px 2px;
+	border-color: #c7171e;
+	border-style: solid;
+	font-size: 14px;
+}
+
+.button {
+	float: left;
+	width: 50px;
+	height: 36px;
+	border: none;
+	line-height: 1;
+	color: #fff;
+	font-size: 0;
+	cursor: pointer;
+	background: url(../img/paimai-search.png) no-repeat center center #c7171e;
+}
+
+/*auction*/
+#my-auction {
+	float: left;
+	margin-top: 41px;
+	height: 34px;
+	line-height: 34px;
+}
+
+#my-auction .dt {
+	float: left;
+	padding: 0 25px;
+	border: 1px solid #f1f1f1;
+	width: 50px;
+	background: #fff;
+	z-index: 3;
+}
+
+#my-auction .cw-icon {
+	position: relative;
+	cursor: default;
+	zoom: 1;
+}
+
+.cw-icon i {
+	display: block;
+	position: absolute;
+	overflow: hidden;
+}
+
+#my-auction .ci-left {
+	top: 8px;
+	left: 7px;
+	width: 15px;
+	height: 15px;
+	background: url(../img/icon-hammer.png) no-repeat 0 0;
+}
+
+#my-auction .ci-right {
+	width: 12px;
+	height: 7px;
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	background-image: url(../img/quan-icons.png);
+	background-repeat: no-repeat;
+	background-position: -100px 0;
+}
+
+#my-auction .dd {
+	padding-bottom: 8px;
+	line-height: 24px;
+	width: 100px;
+	background: #fff;
+}
+
+.dropdown-layer {
+	top: 34px;
+	border: 1px solid #ddd;
+	border-top: 0;
+	position: absolute;
+	display: none;
+}
+
+.dd-spacer {
+	margin: 0 auto 5px;
+	width: 89px;
+	height: 1px;
+	background: #f1f1f1;
+	margin-bottom: 5px;
+}
+
+#my-auction .item {
+	padding-left: 25px;
+}

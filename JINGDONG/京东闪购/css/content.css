@@ -1,0 +1,636 @@
+#fs-content .w {
+	width: 1000px;
+}
+
+.main-left {
+	float: left;
+	width: 688px;
+}
+
+.ml-tit {
+	position: relative;
+	height: 47px;
+	margin: 16px 0 12px 0;
+	text-align: center;
+}
+
+.ml-item {
+	width: 686px;
+	height: 190px;
+	border: 1px solid #ddd;
+	margin-bottom: 14px;
+}
+
+.ml-info {
+	float: left;
+	width: 205px;
+	height: 190px;
+	position: relative;
+	background: #fff;
+}
+
+.ml-info .logo {
+	width: 70px;
+	height: 35px;
+	margin: 30px auto 15px;
+}
+
+.ml-info .logo img {
+	width: 70px;
+	height: 35px;
+}
+
+.ml-info .short-line {
+	height: 1px;
+	width: 36px;
+	background: #ccc;
+	margin: 0 auto 14px;
+}
+
+.ml-info .tit {
+	font-weight: 700;
+	color: #484848;
+	font-size: 15px;
+	display: block;
+	width: 205px;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.ml-info .txt {
+	color: #b30004;
+	height: 14px;
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
+	width: 205px;
+	cursor: default;
+}
+
+.ml-info .brand-rebate {
+	width: 205px;
+	height: 13px;
+	position: absolute;
+	bottom: 18px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.brand-rebate .right {
+	position: absolute;
+	top: 5px;
+	right: 66px;
+	width: 0;
+	height: 0;
+	border-left: 4px solid #666;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+}
+
+.ml-img {
+	float: right;
+	width: 480px;
+	position: relative;
+}
+
+.ml-img img {
+	width: 480px;
+	height: 190px;
+}
+
+.countdown-tag {
+	padding-left: 30px;
+	background: url(../img/tick_bg.png) repeat-x;
+	position: absolute;
+	left: 0;
+	top: 10px;
+	height: 23px;
+}
+
+.countdown-tag .tick-logo {
+	display: block;
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	background: url(../img/tick.png) no-repeat center center;
+	background-size: 14px 14px;
+	margin-top: -7px;
+}
+
+.countdown-tag p {
+	line-height: 23px;
+	color: #fff;
+}
+
+.countdown-tag .arrow-circle {
+	position: absolute;
+	height: 23px;
+	width: 14px;
+	background: url(../img/arrowcircle.png) no-repeat;
+	background-size: 14px 100%;
+	right: -14px;
+	top: 0;
+}
+
+.more-btn {
+	width: 683px;
+	height: 71px;
+	border: 1px solid #ddd;
+	background-color: #f6f6f6;
+	background: url(../img/more.png) no-repeat center 28px/53px 34px;
+}
+
+.main-right {
+	float: right;
+	width: 295px;
+	margin-top: 20px;
+}
+
+.main-right .tabs {
+	width: 295px;
+	margin-bottom: 20px;
+}
+
+.main-right .tabs .tab-mt {
+	width: 295px;
+	height: 42px;
+	margin-bottom: 10px;
+}
+
+.main-right .tabs .tab-mt li {
+	width: 146px;
+	height: 40px;
+	border: 1px solid #e1e1e1;
+	float: left;
+	position: relative;
+	text-align: center;
+	font: 400 12px/17px verdana;
+	background: #fff;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+.main-right .tabs .tab-mt li b {
+	width: 0;
+	height: 0;
+	border-top: 5px solid #c81623;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	position: absolute;
+	bottom: -5px;
+	left: 50%;
+	margin-left: -5px;
+	display: none;
+}
+
+.main-right .tabs .tab-mt .left {
+	border-right: 0;
+	background: #c81623;
+	color: #fff;
+	border-color: #c81623;
+}
+
+.main-right .tabs .tab-mt .left b {
+	display: block;
+}
+
+.main-right .tabs .tab-mt .right {
+	border-left: 0;
+}
+
+.main-right .tab-mc {
+	width: 293px;
+	border: 1px solid #e1e1e1;
+	background: #fff;
+}
+
+.main-right .tab-mc .mc-top {
+	margin: 0 10px 3px;
+}
+
+.main-right .tab-mc .mc-top .item {
+	position: relative;
+	width: 138px;
+	height: 99px;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+	padding-left: 136px;
+}
+
+.main-right .tab-mc .mc-top .last {
+	border-bottom: 0;
+}
+
+.tab-mc .mc-top .item .num {
+	position: absolute;
+	width: 35px;
+	height: 23px;
+	left: 0;
+	top: 20px;
+	background-image: url(../img/num-title.png);
+	background-repeat: no-repeat;
+}
+
+.num1 {
+	background-position: 0 0;
+}
+
+.num2 {
+	background-position: 0 -30px;
+}
+
+.num3 {
+	background-position: 0 -60px;
+}
+
+.num4 {
+	background-position: 0 -90px;
+}
+
+.num5 {
+	background-position: 0 -120px;
+}
+
+.num6 {
+	background-position: 0 -150px;
+}
+
+.num7 {
+	background-position: 0 -180px;
+}
+
+.num8 {
+	background-position: 0 -210px;
+}
+
+.num9 {
+	background-position: 0 -240px;
+}
+
+.num10 {
+	background-position: 0 -270px;
+}
+
+.tab-mc .mc-top .item .prd-img {
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	left: 40px;
+	top: 50%;
+	margin-top: -37px;
+}
+
+.tab-mc .mc-top .item .detail {
+	text-align: left;
+	line-height: 1;
+}
+
+.tab-mc .mc-top .item .detail h4 {
+	font-size: 12px;
+	color: #222;
+	margin: 20px 0 4px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.tab-mc .mc-top .item .detail .des {
+	font-size: 12px;
+	color: #222;
+	margin-bottom: 7px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.tab-mc .mc-top .item .detail .price {
+	font-size: 12px;
+	color: #c81624;
+	margin-bottom: 7px;
+}
+
+.tab-mc .mc-top .item .detail .pnum {
+	font-size: 12px;
+	color: #999;
+}
+
+.item-list {
+	width: 1018px;
+	overflow: hidden;
+}
+
+.item-list li {
+	width: 490px;
+	padding-right: 18px;
+	padding-top: 20px;
+	float: left;
+}
+
+.item-img {
+	position: relative;
+	height: 194px;
+}
+
+.item-img a img {
+	width: 490px;
+	height: 194px;
+}
+
+.mi-icon {
+	position: absolute;
+	right: 6px;
+	top: 6px;
+	width: 42px;
+	height: 42px;
+}
+
+.item-detail {
+	width: 490px;
+	height: 64px;
+	background: #fff;
+	position: relative;
+}
+
+.item-detail .inner {
+	width: 100%;
+	height: 19px;
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	font-size: 0;
+}
+
+.item-detail .inner .logo {
+	float: left;
+	width: 81px;
+	height: 19px;
+	text-align: center;
+}
+
+.item-detail .inner .logo img {
+	width: 38px;
+	height: 19px;
+}
+
+.item-detail .inner p {
+	float: left;
+	line-height: 19px;
+	font-size: 16px;
+	border-left: 1px solid #ccc;
+	font-weight: 400;
+	padding-left: 18px;
+}
+
+.item-detail .inner .discount {
+	line-height: 19px;
+	float: right;
+	color: #e11644;
+	font-size: 14px;
+	margin-right: 20px;
+}
+
+.last-buy .lb-mt {
+	position: relative;
+	height: 45px;
+	margin: 30px 0 20px;
+	text-align: center;
+}
+
+.last-buy .lb-line {
+	position: absolute;
+	bottom: 3px;
+	width: 100%;
+	height: 2px;
+	background: #cdcdcd;
+}
+
+.last-buy .lb-tit {
+	position: absolute;
+	width: 113px;
+	height: 100%;
+	left: 50%;
+	margin-left: -181px;
+	padding: 0 32px 0 218px;
+	background: #f6f6f6 url(../img/last-buybg.png) no-repeat 34px 0/184px 45px;
+}
+
+.last-buy .lb-tit p {
+	position: absolute;
+	left: 218px;
+	bottom: 0;
+	text-align: left;
+	color: #3b3b3b;
+	line-height: 1;
+	font-size: 14px;
+	font-style: oblique;
+}
+
+.lb-mc .item-detail {
+	width: 470px;
+	height: 68px;
+	padding: 10px;
+}
+
+.lb-mc .brand-rebate {
+	float: left;
+}
+
+.lb-mc .brand-rebate span {
+	font-size: 14px;
+	line-height: 14px;
+	color: #666;
+}
+
+.lb-mc .brand-rebate strong {
+	font-size: 22px;
+	line-height: 37px;
+	color: #b30004;
+	font-family: arial;
+}
+
+.lb-mc .brand-surplustime {
+	height: 22px;
+	background: #a4a4a4;
+	position: absolute;
+	left: 10px;
+	bottom: 16px;
+	padding: 0 10px 0 25px;
+	border-radius: 22px;
+}
+
+.lb-mc .brand-surplustime i {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	left: 10px;
+	top: 6px;
+	background: url(../img/2014071103.png) no-repeat;
+}
+
+.lb-mc .brand-surplustime .count {
+	line-height: 22px;
+	color: #fff;
+}
+
+.lb-mc .brand-logo {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 153px;
+	height: 57px;
+	padding: 5px 10px;
+	border: 1px solid #e1e1e1;
+	text-align: center;
+}
+
+.lb-mc .brand-logo img {
+	width: 70px;
+	height: 35px;
+	padding-bottom: 5px;
+	margin: 0 auto;
+}
+
+.lb-mc .brand-logo span {
+	position: absolute;
+	top: 45px;
+	display: block;
+	width: 150px;
+	height: 14px;
+}
+
+.notice {
+	padding-top: 37px;
+}
+
+.notice .mt {
+	width: 1000px;
+	height: 41px;
+	padding-bottom: 14px;
+}
+
+.notice .mt .tab {
+	width: 522px;
+	height: 34px;
+	border-left: 1px solid #666;
+	margin: 0 auto;
+}
+
+.notice .mt .tab li {
+	float: left;
+	width: 173px;
+	height: 32px;
+	line-height: 35px;
+	font-size: 17px;
+	cursor: pointer;
+	border-top: 1px solid #666;
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+	position: relative;
+	color: #222;
+	text-align: center;
+}
+
+.notice .mt .tab .curr {
+	color: #fff;
+	background: #666;
+}
+
+.notice .mt .tab .curr b {
+	display: block;
+}
+
+.notice .mt .tab li b {
+	position: absolute;
+	left: 50%;
+	bottom: -7px;
+	width: 0;
+	height: 0;
+	margin-left: -6px;
+	border-top: 7px solid #666;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	display: none;
+}
+
+.notice .mc {
+	width: 1000px;
+}
+
+.notice .mc .tabcon {
+	width: 1100px;
+}
+
+.notice .mc .tabcon .po-mod {
+	float: left;
+	margin-right: 14px;
+	margin-bottom: 20px;
+	width: 324px;
+	height: 177px;
+}
+
+.notice .mc .tabcon .po-mod .mod-img {
+	width: 324px;
+	height: 127px;
+	display: block;
+}
+
+.notice .mc .tabcon .po-mod .mod-img img {
+	width: 324px;
+	height: 127px;
+}
+
+.notice .mc .tabcon .po-mod .detail {
+	width: 324px;
+	height: 50px;
+	position: relative;
+	z-index: 1;
+	background: #fff;
+}
+
+.notice .mc .tabcon .po-mod .detail .txt {
+	height: 50px;
+	line-height: 50px;
+	position: absolute;
+	left: 10px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.notice .mc .tabcon .po-mod .detail .logo {
+	width: 120px;
+	height: 30px;
+	border: 1px solid #e1e1e1;
+	position: absolute;
+	right: 10px;
+	top: 8px;
+	text-align: center;
+}
+
+.notice .mc .tabcon .po-mod .detail .logo img {
+	width: 56px;
+	height: 28px;
+}
+
+.notice .mc .tabcon .po-mod .detail .remind {
+	width: 306px;
+	height: 35px;
+	line-height: 35px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	background: #72542b;
+	text-align: center;
+	color: #fff;
+	opacity: 0;
+}
+
+.notice .mc .tabcon .po-mod .detail .remind i {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	left: 110px;
+	top: 13px;
+	background:url(../img/2014071103.png) no-repeat;
+}

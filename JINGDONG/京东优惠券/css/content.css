@@ -1,0 +1,434 @@
+﻿.nav_list {
+	font-size: 0;
+}
+
+.nav_items {
+	float: left;
+	position: relative;
+}
+
+.nav_item {
+	display: inline-block;
+}
+
+.nav_lk {
+	display: block;
+	height: 44px;
+	line-height: 44px;
+	padding: 0 20px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 700;
+	color: #a41616;
+}
+
+/*券内容头部*/
+.quan_top {
+	height: 381px;
+	padding: 30px 0 20px;
+	position: relative;
+	background: url(../img/top-bg.jpg) center repeat;
+}
+
+.top_lcol {
+	float: left;
+	width: 735px;
+	height: 363px;
+	margin-right: 20px;
+}
+
+.top_rcol {
+	float: left;
+	width: 430px;
+	height: 363px;
+}
+
+.rcol_mod {
+	box-shadow: 0 11px 16px 2px rgba(151, 66, 0, .24);
+	border-radius: 10px;
+}
+
+.mt {
+	height: 46px;
+	line-height: 46px;
+	padding: 0 20px;
+	background: #fff;
+	border-radius: 10px 10px 0 0;
+	position: relative;
+}
+
+.mt h3 {
+	position: absolute;
+	width: 72px;
+	height: 18px;
+	margin-top: 14px;
+	background-image: url(../img/quan-index-icons.png);
+	background-repeat: no-repeat;
+	background-position: 0 -38px;
+}
+
+.mt_need {
+	position: absolute;
+	right: 20px;
+	display: block;
+	margin-top: 14px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 14px;
+	color: #e34629;
+}
+
+.mc {
+	height: 287px;
+	padding: 0 0 30px 34px;
+	color: #fff;
+	background: url(../img/top-c-bg.jpg) repeat-x;
+	border-radius: 0 0 10px 10px;
+}
+
+.mc_tit {
+	padding: 20px 0;
+	font: 700 16px/30px "Microsoft YaHei";
+}
+
+.cont {
+	font-size: 0;
+}
+
+.cont_item {
+	position: relative;
+	width: 115px;
+	height: 184px;
+	margin: 0 10px 10px 0;
+	border-top: 9px solid #5cb6ef;
+	background: #fff;
+	display: inline-block;
+}
+
+.cont_price {
+	text-align: center;
+	height: 65px;
+	padding-top: 25px;
+	color: #f23030;
+	font-size: 12px;
+}
+
+.cont_price em {
+	font-style: normal;
+}
+
+.cont_price strong {
+	font-size: 34px;
+}
+
+.cont_limit {
+	display: block;
+	height: 34px;
+	line-height: 18px;
+	color: #8b8b8b;
+}
+
+.cont_line {
+	position: relative;
+	height: 1px;
+	background: #d5d5d5;
+}
+
+.cl {
+	position: absolute;
+	top: -10px;
+	left: 0;
+	width: 10px;
+	height: 20px;
+	background: url(../img/quan-index-icons.png) -49px -77px no-repeat;
+}
+
+.cr {
+	position: absolute;
+	top: -10px;
+	right: 0;
+	width: 10px;
+	height: 20px;
+	background: url(../img/quan-index-icons.png) -68px -77px no-repeat;
+}
+
+.cont_range {
+	padding-top: 15px;
+	height: 79px;
+	background: #eee;
+	font-size: 14px;
+	color: #e93524;
+}
+
+.range_txt {
+	margin: 0 15px;
+	padding-top: 10px;
+	border-top: 2px solid #e93524;
+	height: 36px;
+	line-height: 18px;
+	overflow: hidden;
+}
+
+.range_bottom {
+	position: absolute;
+	bottom: -4px;
+	width: 100%;
+	height: 4px;
+	background: url(../img/h-circle-index.png) repeat-x;
+}
+
+/*券内容*/
+.quan_wrap {
+	background: #f6f6f6;
+}
+
+.quan_cate {
+	position: relative;
+	top: -20px;
+	overflow: hidden;
+}
+
+#ceilinglamp {
+	margin-bottom: 20px;
+}
+
+.cate_list:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.cate_list {
+	width: 1190px;
+	position: relative;
+	left: -1px;
+	min-height: 58px;
+	border-top: 2px solid #f23030;
+	background: #fff;
+	font-size: 0;
+}
+
+.cate_item {
+	display: block;
+	float: left;
+	width: 107px;
+	height: 58px;
+	line-height: 58px;
+	font-size: 16px;
+	text-align: center;
+	border-left: 1px solid #e7e7e7;
+	color: #333;
+}
+
+.cate_list .cate_first {
+	background: #f23030;
+	color: #fff;
+	border-left-color: #f23030;
+}
+
+.cate_dropdown {
+	width: 100%;
+	border-top: 1px solid #e7e7e7;
+	height: 58px;
+	display: none;
+}
+
+.delta {
+	position: relative;
+	top: -3px;
+	font-size: 0;
+	width: 0;
+	height: 0;
+	border-width: 6px;
+	border-style: solid;
+	border-color: #333 transparent transparent;
+	margin-left: 5px;
+}
+
+.cate_cont {
+	width: 1260px;
+	display: block;
+}
+
+.cate_cont:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.quan_item {
+	position: relative;
+	float: left;
+	margin: 0 24px 20px 0;
+	width: 378px;
+	height: 190px;
+}
+
+.quan_type01 {
+	border-right: 2px solid #5e9ff0;
+	overflow: hidden;
+	background: #fff;
+}
+
+.quan_type02 {
+	border-right: 2px solid #e7ad3e;
+	overflow: hidden;
+	background: #fff;
+}
+
+.quan_type {
+	background-color: #5e9ff0;
+	background-image: linear-gradient(-52deg,#5e9ff0 0,#5cb6ef 100%);
+	box-shadow: 2px 15px 23px 6px rgba(0, 0, 0, .18);
+	position: relative;
+	z-index: 2;
+	width: 200px;
+	height: 165px;
+	padding: 10px 20px 15px;
+	color: #fff;
+}
+
+.quan_type02 .quan_type {
+	background-color: #e7ad3e;
+	background-image: linear-gradient(-52deg,#e7ad3e 0,#d69a27 100%);
+}
+
+.quan_price {
+	margin-bottom: 10px;
+}
+
+.quan_price em {
+	font: 400 18px arial;
+}
+
+.quan_price strong {
+	font: 400 34px arial;
+}
+
+.quan_limit {
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.quan_line {
+	position: relative;
+	border-top: 1px dotted #fff;
+}
+
+.quan_range {
+	height: 36px;
+	line-height: 18px;
+	overflow: hidden;
+	font-size: 14px;
+	margin: 10px 0;
+}
+
+.quan_cl {
+	position: absolute;
+	display: block;
+	width: 10px;
+	height: 20px;
+	top: 25px;
+	left: -20px;
+	background: url(../img/quan-index-icons.png) -88px -77px no-repeat;
+}
+
+.progress_wrap {
+	display: inline-block;
+	position: relative;
+	width: 144px;
+	height: 8px;
+	margin-top: 5px;
+}
+
+.progress_bg {
+	display: block;
+	position: relative;
+	width: 144px;
+	height: 8px;
+	background: #030303;
+	opacity: .14;
+}
+
+.progress {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 8px;
+	background: #fff;
+	opacity: .6;
+}
+
+.progress_txt {
+	float: right;
+}
+
+
+.quan_ops {
+	height: 31px;
+	margin-bottom: 15px;
+}
+
+.btn {
+	position: relative;
+	display: block;
+	width: 140px;
+	height: 27px;
+	line-height: 27px;
+	border: 2px solid #fff;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+
+.btn b {
+	position: absolute;
+	z-index: 1;
+	display: block;
+	width: 0;
+	height: 27px;
+	background: rgba(255, 255, 255, .23);
+}
+
+.btn_txt {
+	position: relative;
+	z-index: 2;
+}
+
+.quan_img {
+	position: absolute;
+	z-index: 1;
+	right: 15px;
+	top: 5px;
+	width: 180px;
+	height: 180px;
+}
+
+.cate_end {
+	text-align: center;
+	font-size: 14px;
+	margin: 50px 0 0;
+}
+
+.cate_end .i1 {
+	width: 28px;
+	height: 28px;
+	background-image: url(../img/quan-index-icons.png);
+	background-repeat: no-repeat;
+	background-position: 0 -188px;
+	margin: 0 auto 10px;
+}
+
+.cate_end .i2 {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/quan-index-icons.png);
+	background-repeat: no-repeat;
+	background-position: -37px -189px;
+	margin: 10px auto 10px;
+}

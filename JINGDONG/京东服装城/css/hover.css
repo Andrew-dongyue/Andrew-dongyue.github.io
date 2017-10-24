@@ -1,0 +1,275 @@
+.dropdown:hover .cw-list {
+	display: block;
+}
+
+.dropdown-app:hover .cw-list {
+	display: block;
+}
+
+.cw-po a:hover {
+	background: #f4f4f4;
+}
+
+.dropdown:hover .dt {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	background-color: #fff;
+}
+
+.dropdown:hover .ci-left {
+	background: url(../img/jd2015img.png) 0 -25px no-repeat;
+}
+
+.dropdown:hover .dropdown-layer {
+	display: block;
+	z-index: 3;
+	-webkit-transition: all 600ms cubic-bezier(0.23,1,.32,1);
+}
+
+.dropdown:hover .cw-icon {
+	border: 1px solid #ddd!important;
+}
+
+#fashion-code .my-code:hover +.qrcode {
+	display: block;
+}
+
+#fashion-shopping:hover {
+	background: #fff;
+	border-color: #ddd;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+}
+
+#fashion-shopping:hover .dropdown-layer {
+	display: block;
+}
+
+.fashionmu-cls a:hover {
+	color: #cc2b54;
+}
+
+.fashionmu-list .item a:hover {
+	color: #cc2b54;
+}
+
+.fashion-slider .slider-btn i:hover {
+	background: #cc2b54;
+}
+
+.fashion-popular .mc .item:hover .name {
+	background: #2c2527;
+	color: #fff;
+}
+
+.fashion-popular .mc .item:hover span {
+	color: #fff;
+}
+
+.fashion-popular .mc .hot .fore1:hover i {
+	background-position: -380px -50px;
+}
+
+.fashion-popular .mc .hot .fore2:hover i {
+	background-position: -410px -50px;
+}
+
+.fashion-brand .mc .img img:hover {
+	transform: scale(1.08);
+	transition: all 2s;
+}
+
+.fashion-brand .mb .brands li:hover img {
+	transform: rotateY(180deg);
+	transition: all .6s;
+	opacity: 0;
+}
+
+.fashion-brand .mb .brands li:hover em {
+	transform: rotateY(0deg);
+	transition: all .6s;
+	background: #fff;
+	opacity: 1;
+}
+
+.fashion-mysale .mc .tab-nav .item:hover {
+	color: #fff;
+	background: #2c2426;
+}
+
+.fashion-mysale .mc .tab-content .content-item .hot img:hover {
+	transform: scale(1.08);
+	transition: all 2s;
+}
+
+.fashion-mysale .mc .tab-content .content-item .item .img:hover {
+	margin-left: -5px;
+	transition: all .4s;
+}
+
+.fashion-floor .mc .focus .name a:hover i {
+	background-position: -435px -260px;
+}
+
+.fashion-floor .mc .list .item .img:hover {
+	transform: translateX(-5px);
+	transition: all .4s;
+}
+/*男装*/
+#fashion-men .mc .category .cate-text li a:hover {
+	color: #3172c9;
+}
+
+#fashion-men .mc .category .cate-list .cl-name:hover {
+	color: #3172c9;
+}
+
+#fashion-men .mc .focus .brand li:hover .p-price {
+	color: #3172c9;
+}
+/*女装*/
+#fashion-women .mc .category .cate-text li a:hover {
+	color: #f44061;
+}
+
+#fashion-women .mc .category .cate-list .cl-name:hover {
+	color: #f44061;
+}
+
+#fashion-women .mc .focus .brand li:hover .p-price {
+	color: #f44061;
+}
+/*鞋靴*/
+#fashion-shoes .mc .category .cate-text li a:hover {
+	color: #edb133;
+}
+
+#fashion-shoes .mc .category .cate-list .cl-name:hover {
+	color: #edb133;
+}
+
+#fashion-shoes .mc .focus .brand li:hover .p-price {
+	color: #edb133;
+}
+/*运动*/
+#fashion-sports .mc .focus .brand li:hover .p-price {
+	color: #edb133;
+}
+
+#fashion-sports .mc .category .cate-text li a:hover {
+	color: #66c112;
+}
+
+#fashion-sports .mc .category .cate-list .cl-name:hover {
+	color: #66c112;
+}
+/*户外*/
+#fashion-outdoor .mc .focus .brand li:hover .p-price {
+	color: #1daebd;
+}
+
+#fashion-outdoor .mc .category .cate-text li a:hover {
+	color: #1daebd;
+}
+
+#fashion-outdoor .mc .category .cate-list .cl-name:hover {
+	color: #1daebd;
+}
+/*箱包*/
+#fashion-bag .mc .focus .brand li:hover .p-price {
+	color: #c45ed8;
+}
+
+#fashion-bag .mc .category .cate-text li a:hover {
+	color: #c45ed8;
+}
+
+#fashion-bag .mc .category .cate-list .cl-name:hover {
+	color: #c45ed8;
+}
+/*珠宝*/
+#fashion-jewel .mc .focus .brand li:hover .p-price {
+	color: #37ac69;
+}
+
+#fashion-jewel .mc .category .cate-text li a:hover {
+	color: #37ac69;
+}
+
+#fashion-jewel .mc .category .cate-list .cl-name:hover {
+	color: #37ac69;
+}
+/*童装*/
+#fashion-kid .mc .focus .brand li:hover .p-price {
+	color: #29c2c1;
+}
+
+#fashion-kid .mc .category .cate-text li a:hover {
+	color: #29c2c1;
+}
+
+#fashion-kid .mc .category .cate-list .cl-name:hover {
+	color: #29c2c1;
+}
+/*奢品*/
+#fashion-luxury .mc .category .cate-text li a:hover {
+	color: #60487d;
+}
+
+#fashion-luxury .mc .category .cate-list .cl-item:hover span {
+	color: #60487d;
+}
+/*腕表*/
+#fashion-watch .mc .category .cate-text li a:hover {
+	color: #664e68;
+}
+
+#fashion-watch .mc .category .cate-list .cl-name:hover {
+	color: #664e68;
+}
+
+.fashion-like .mc .item:hover .p-name {
+	color: #cf2653;
+}
+
+.aucCategorys .item:hover {
+	background: #fff;
+}
+
+.aucCategorys .item:hover .item-cont {
+	border-color: #fff;
+}
+
+.aucCategorys .item a:hover {
+	color: #c7171e;
+}
+
+.aucCategorys .item:hover .item-title {
+	color: #c7171e;
+}
+
+.aucCategorys .item:hover .arrow {
+	background-image: url(../img/arrow1.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 12px 12px;
+}
+
+.aucCategorys .item:hover .sub-item {
+	display: block;
+}
+
+.slider:hover .pm-slide-page {
+	display: block;
+}
+
+.brand-fullcut-item:hover {
+	opacity: .8;
+}
+
+.help a:hover {
+	color: #C81623;
+}
+
+.mod a:hover {
+	color: #C81623;
+}

@@ -1,0 +1,90 @@
+.service .item {
+	display: inline-block;
+	margin-right: 75px;
+	float: left;
+}
+
+.service .item i {
+	width: 220px;
+	height: 54px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	
+}
+
+.service .fore1 {
+	background-image: url(../img/service_items_1.png);
+}
+
+.service .fore2 {
+	background-image: url(../img/service_items_2.png);
+}
+
+.service .fore3 {
+	background-image: url(../img/service_items_3.png);
+}
+
+.service .fore4 {
+	background-image: url(../img/service_items_4.png);
+}
+
+.help {
+	width: 1200px;
+}
+
+.help_list {
+	width: 275px;
+	float: left;
+}
+
+.help_tit {
+	padding: 6px 0;
+	font: 400 16px/24px "Microsoft YaHei";
+}
+
+.help_lk {
+	display: block;
+	line-height: 20px;
+}
+
+.help .last {
+	width: 100px;
+}
+
+.mod_inner {
+	border-top: 1px solid #e5e5e5;
+	padding: 20px 0 30px;
+	text-align: center;
+}
+
+.mod_links {
+	height: 18px;
+	font-size: 0;
+}
+
+.mod_links a {
+	margin: 0 10px;
+	font-size: 12px;
+}
+
+.mod_links span {
+	font-size: 12px;
+}
+
+.mod_copyright {
+	margin: 10px 0;
+	/*font-size: 0;*/
+}
+
+.mod_copyright img {
+	vertical-align: middle;
+}
+
+.mod_authentication {
+	height: 32px;
+}
+
+.mod_authentication a {
+	text-decoration: none;
+	margin: 0 5px;
+}

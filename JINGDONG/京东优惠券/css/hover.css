@@ -1,0 +1,45 @@
+.dropdown:hover {
+	border-color: #ddd;
+	background-color: #fff;
+
+}
+
+.dropdown:hover .cw-list {
+	display: block;
+}
+
+
+.dropdown:hover .dt {
+	border-bottom: 1px solid #fff;
+}
+
+.dropdown:hover .ci-left {
+	background: url(../img/jd2015img.png) 0 -25px no-repeat;
+}
+
+.cw-po a:hover {
+	background: #f4f4f4;
+}
+
+.quan_item:hover .quan_img {
+	right: 0;
+	transition-duration: .3s;
+}
+
+.cate_item:hover {
+	background: #f23030;
+	color: #fff;
+}
+
+.cate_list:hover .cate_dropdown {
+	display: block;
+}
+
+.cate_dropdown:hover {
+	display: block;
+}
+
+.btn:hover b {
+	transition: width .2s;
+	width: 144px;
+}

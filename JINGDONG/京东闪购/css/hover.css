@@ -1,0 +1,76 @@
+.dropdown:hover .cw-list {
+	display: block;
+}
+
+
+.dropdown:hover .dt {
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	background-color: #fff;
+}
+
+.dropdown:hover .ci-left {
+	background-position: 0 -44px;
+}
+
+.dropdown:hover .cw-icon {
+	border: 1px solid #ddd!important;
+}
+
+.fs-shopbag:hover {
+	border: 1px solid #f44839;
+}
+
+.nav-item:hover {
+	background: #bc302b;
+}
+
+.ml-item:hover {
+	border: 1px solid #c91724;
+}
+
+.ml-item .tit:hover {
+	text-decoration: underline;
+}
+
+.ml-item .brand-rebate a:hover {
+	color: #e4393c;
+	text-decoration: underline;
+}
+
+.lb-mc .brand-logo a:hover span {
+	color: #e4393c;
+	text-decoration: underline;
+}
+
+.notice .mt .tab li:hover {
+	color: #fff;
+	background: #666;
+}
+
+.notice .mt .tab li:hover b {
+	display: block;
+}
+
+.notice .mc .tabcon .po-mod .detail .txt:hover {
+	color: #e4393c;
+	text-decoration: underline;
+}
+
+.notice .mc .tabcon .po-mod:hover .detail {
+	height: 103px;
+	transition: height .3s;
+}
+
+.notice .mc .tabcon .po-mod:hover .remind {
+	opacity: 1;
+	transition: opacity .3s;
+}
+
+.slider:hover .pm-slide-page {
+	display: block;
+}
+
+.mod a:hover {
+	color: #C81623;
+}
